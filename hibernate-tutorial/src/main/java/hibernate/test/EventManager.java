@@ -17,10 +17,10 @@ public class EventManager {
 	public static void main(String[] args) {
 
 		Event event1 = new Event();
-		event1.setTitle("标题1");
+		event1.setTitle("data1");
 		event1.setDate(new Date(System.currentTimeMillis()));
 		Event event2 = new Event();
-		event2.setTitle("标题2");
+		event2.setTitle("data2");
 		event2.setDate(new Date(System.currentTimeMillis() - 86400_000));
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 		Transaction tx = null;

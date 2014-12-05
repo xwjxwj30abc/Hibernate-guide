@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
-@Table(name = "hibernatetest")
+@Table(name = "EVENTS")
 public class Event {
 
 	private int id;
